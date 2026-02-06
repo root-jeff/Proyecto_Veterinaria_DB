@@ -188,8 +188,8 @@ INSERT INTO medicamentos_recetados (id_tratamiento, id_medicamento, dosis, frecu
 (3, 1, '250mg', 'Dos veces al día', 10, 'oral', 'Completar todo el tratamiento'),
 (4, 3, '10mg', 'Dos veces al día', 30, 'oral', 'Continuar hasta nueva evaluación'),
 (4, 2, '0.5ml', 'Una vez al día', 15, 'oral', 'Si persiste picazón'),
-(5, 4, '250mg', 'Dos veces al día', 7, 'oral', 'Dar con alimento'),
-(5, 5, '1 sobre', 'Una vez al día', 14, 'oral', 'Mezclar con comida');
+(4, 4, '250mg', 'Dos veces al día', 7, 'oral', 'Dar con alimento'),
+(4, 5, '1 sobre', 'Una vez al día', 14, 'oral', 'Mezclar con comida');
 
 -- =============================================
 -- MÓDULO 9: VACUNAS
