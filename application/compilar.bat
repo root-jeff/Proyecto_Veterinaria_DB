@@ -9,7 +9,7 @@ if not exist "bin" mkdir bin
 
 REM Compilar todos los archivos Java
 echo Compilando archivos Java...
-javac -encoding UTF-8 -cp ".;lib/postgresql-42.7.2.jar" -d bin VeterinariaApp.java model/*.java dao/*.java database/*.java
+javac -encoding UTF-8 -cp ".;lib/postgresql-42.7.9.jar" -d bin VeterinariaApp.java model/*.java dao/*.java database/*.java
 
 if %errorlevel% equ 0 (
     echo.
@@ -18,7 +18,7 @@ if %errorlevel% equ 0 (
     echo ====================================
     echo.
     echo Para ejecutar la aplicacion usa:
-    echo java -cp "bin;lib/postgresql-42.7.2.jar" VeterinariaApp
+    echo java -cp "bin;lib/postgresql-42.7.9.jar" VeterinariaApp
     echo.
 ) else (
     echo.

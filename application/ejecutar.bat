@@ -19,6 +19,6 @@ if exist "config.properties" (
 )
 
 REM Ejecutar la aplicacion
-java -cp "bin;lib/postgresql-42.7.2.jar" VeterinariaApp
+java -cp "bin;lib/postgresql-42.7.9.jar" VeterinariaApp
 
 pause
