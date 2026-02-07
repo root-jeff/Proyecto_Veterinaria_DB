@@ -18,5 +18,5 @@ if [ -f "config.properties" ]; then
     cp config.properties bin/
 fi
 
-# Ejecutar la aplicación
-java -cp "bin:lib/postgresql-42.7.9.jar" VeterinariaApp
+# Ejecutar la aplicación con codificación UTF-8
+java -Dfile.encoding=UTF-8 -cp "bin:lib/postgresql-42.7.9.jar" VeterinariaApp
