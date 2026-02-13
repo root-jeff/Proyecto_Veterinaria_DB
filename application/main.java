@@ -8,7 +8,7 @@
 //   - Windows: ejecutar.bat
 //   - Linux/Mac: ./ejecutar.sh
 // =========================================================================
-
+// DEPRECATED: Este archivo se mantiene solo por compatibilidad, pero no contiene código funcional.
 public class main {
     public static void main(String[] args) {
         System.out.println("╔══════════════════════════════════════════════════════════════╗");
