@@ -36,7 +36,6 @@ public class DatabaseConnection {
             
         } catch (ClassNotFoundException e) {
             System.err.println("Error: No se encontró el driver de PostgreSQL");
-            System.err.println("Asegúrate de tener postgresql-XX.X.X.jar en el classpath");
             e.printStackTrace();
         }
     }
